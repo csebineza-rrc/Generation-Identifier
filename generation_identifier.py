@@ -18,7 +18,7 @@ class GenerationIdentifier:
         self.birth_year = birth_year
 
     def identifier(self) -> str:
-        """
+        """Identifies the generation based on the birth_year.
 
         Args:
             birth_year (int): The birth year of a person.
