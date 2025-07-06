@@ -6,7 +6,8 @@ __author__ = "Cedrick S"
 
 class GenerationIdentifier:
     """A class to identify the generation which an individual belongs to
-    based on their birth year."""
+    based on their birth year.
+    """
 
     def __init__(self, birth_year: int):
         """Initialises an instance of the GenerationIdentifier class.
